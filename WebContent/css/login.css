@@ -1,0 +1,60 @@
+@import url("common/reset.css");
+@import url("common/header.css");
+@import url("common/footer.css");
+/* index */
+.container{
+	width:100%; 
+	background-color: #cccccc
+}
+.container .login{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	padding:20px 0;
+}
+.container .login .login-con{
+	width: 1600px;
+	height: 600px;
+	border: 0px solid;
+	box-sizing: border-box;
+	background-color: #ffffff;
+ 	display: flex;
+	justify-content: center; 
+	align-items: center;
+} 
+.container .login .login-con form{
+	width: 600px;
+	border: 0px solid #000000;
+	box-sizing: border-box;
+	background-color: #ffeaee;
+	padding:20px;
+}
+.container .login .login-con table{
+  width: 100%;
+}
+.container .login .login-con table tr th{
+  background-color: #ffffff;
+  padding: 20px 0;
+  box-sizing: border-box;
+  font-size: 30px;
+	background-color: #cccccc;
+}
+table,th,td{
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  border-collapse: collapse;
+} 
+textarea {
+	width:100%;
+	resize: none;
+}
+.container .login .login-con table tr.lastTr td {
+  width: 100%;
+  background-color: #cccccc;
+  text-align: center;
+}
+.container .login .login-con table tr.lastTr td input{
+  width: 100px;
+  padding: 8px 10px;
+} 

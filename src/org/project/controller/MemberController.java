@@ -65,6 +65,8 @@ public class MemberController extends HttpServlet {
 			commend = new MemberDeleteDo();
 			commend.excuteQueryCommend(request, response);
 			fowardURL = (String) request.getAttribute("fowardURL");
+		} else if (basicURL.equals("/loginView.do")) {
+			fowardURL = "/login.jsp";
 		} else if (basicURL.equals("/loginOk.do")) {
 			commend = new LoginOkDo();
 			commend.excuteQueryCommend(request, response);
@@ -75,8 +77,6 @@ public class MemberController extends HttpServlet {
 			fowardURL = (String) request.getAttribute("fowardURL");
 		} else if (basicURL.equals("/index.do")) {
 			fowardURL = "/index.jsp";
-		} else if (basicURL.equals("/loginView.do")) {
-			fowardURL = "/login.jsp";
 		}
 
 		RequestDispatcher dispatcher = request.getRequestDispatcher(fowardURL);
