@@ -15,8 +15,8 @@ public class MemberInsertDo implements MemberCommend{
 		System.out.println("회원가입");
 		
 		String userId=request.getParameter("userId");
-		String userPw=request.getParameter("userId");
-		String gender=request.getParameter("userId");
+		String userPw=request.getParameter("userPw");
+		String gender=request.getParameter("gender");
 		String[] hobbys=request.getParameterValues("hobbys");
 		
 		String hobbysArry="";

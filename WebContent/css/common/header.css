@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*header*/
+.header{
+	width: 100%;
+	height: auto;
+	border: 0px solid #000000;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;/* 행(가로)방향으로 요소 배치, 생략 */
+	justify-content: center;
+	padding:30px 10px;
+	background-color:#ffffff;
+	background: url(../../images/dogs.png) no-repeat 50%/cover;
+}
+.header .nav{
+	/* width: 100%;
+	max-width: 1200px; */
+	/* margin: 0 auto; */
+	width: 1600px;
+	height: 80px;
+	border: 0px solid #000000;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+}
+
+.header .nav h1.logo{
+ 	width:100px;
+	height:80px;
+	box-sizing: border-box;
+	background-color: #cb8001;
+	border-radius: 50%;
+	transition:all 2s;
+}
+.header .nav h1.logo:hover{
+	background-color:  #ffb9dc;
+}
+.header .nav h1.logo a{
+	color: #ffffff;
+}
+.header .nav .gnb{
+	width: 500px;
+	height: auto;
+	border: 0px solid;
+	box-sizing: border-box;
+}
+.header .nav .gnb>ul{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+ 	justify-content: space-between;
+}
+.header .nav .gnb>ul>li{
+ 	width: 20%;
+	height: auto;
+	line-height:80px;
+	text-align:center;
+	border: 0px solid;
+	box-sizing:border-box;
+ 	background-color: #ffffff; 
+}
+.header .nav .gnb>ul>li a:hover{
+	text-decoration: underline;
+	box-shadow: 10px 10px 10px #ffe4ca;
+}

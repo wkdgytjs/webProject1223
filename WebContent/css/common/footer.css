@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*footer*/
+.footer{
+	width: 100%;
+	background-color: #cccccc;
+	display: flex;
+	justify-content: center;
+}
+.footer .footer-con{
+	width: 1600px;
+	height: 370px;
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 200px;
+}
